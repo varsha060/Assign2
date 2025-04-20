@@ -14,12 +14,12 @@ print(list)
 primelist=[]
 n=int(input("enter n:"))
 if n>=1:
-    isprime=True
+    p=1
     for u in range(2,int(i**0.5)+1):
         if i%u == 0:
-            isprime=false
+            p=0
             break
-        if isprime:
+        if p:
             primelist.append(i)
     print(primelist)
 else:
