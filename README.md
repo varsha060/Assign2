@@ -14,6 +14,7 @@ print(list)
 primelist=[]
 n=int(input("enter n:"))
 if n>=1:
+    for i in range(2,n+1):
     p=1
     for u in range(2,int(i**0.5)+1):
         if i%u == 0:
